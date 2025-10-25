@@ -1,15 +1,35 @@
 footer {
-  text-align: left;
-  margin-bottom: 4rem;
-  opacity: 0.7;
-
-  & ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  text-align: center;
+  margin-top: 3rem;
+  padding: 2rem 0;
+  border-top: 1px solid var(--lightgray);
+  color: var(--gray);
+  font-size: 0.9rem;
+  
+  p {
+    margin: 0.5rem 0;
+  }
+  
+  a {
+    color: var(--primary);
+    font-weight: 600;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  ul {
     display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    margin-top: -1rem;
+    gap: 1.5rem;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    
+    a {
+      color: var(--secondary);
+    }
   }
 }
