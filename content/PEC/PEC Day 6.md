@@ -1,6 +1,6 @@
 ---
 title: Day 6
-draft: false
+draft: true
 tags:
   - PEC
 ---
