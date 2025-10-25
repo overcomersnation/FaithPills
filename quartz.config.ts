@@ -92,6 +92,22 @@ const config: QuartzConfig = {
       Plugin.CustomOgImages(),
     ],
   },
+  
+  const config: QuartzConfig = {
+  configuration: {
+    // ... your existing configuration
+  },
+  plugins: {
+    // ... your existing plugins
+  },
+  // ADD THIS NEW SECTION:
+  components: {
+    footer: {
+      links: {} // This empty object removes all default links
+    }
+  },
+}
+  
 }
 
 export default config
