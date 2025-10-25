@@ -1,4 +1,4 @@
-Kingdom = King + Domain
+Kingdom = King + Domain.
 
 Abundance of the earth come to me now!
 
